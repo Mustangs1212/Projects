@@ -1,0 +1,142 @@
+body{
+  background-image:url("images/pexelsImage.jpg");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:fixed;
+  background-size:cover;
+}
+h1{
+  font-family:"Press Start 2P", "consolas";
+  
+}
+
+#p0{
+  width: 600px;
+  color:brown;
+  font-family:"consolas", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: cyan dotted underline;
+  font-size: 18px;
+  
+  background: linear-gradient(skyblue,white);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  
+}
+
+#h1 {
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style:double;
+  border-left-width:15px;
+  border-left-color: silver;
+  
+  background: linear-gradient(to right, skyblue,lightgreen);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+#p1{
+  color:tomato;
+  border-style: solid;
+  border-width: 5px;
+  border-color: gold;
+  border-radius: 10px;
+  padding: 5px;
+}
+.even{
+  color:blue;
+}
+#box1{
+  border: 10px solid;
+  background:greenyellow;
+  padding-left:20px;
+  padding-right:20px;
+  
+  margin-top:3%;
+  margin-left:5%;
+}
+img{
+  float:left;
+  margin-left:1%;
+  margin-right:2%;
+  width:15%;
+}
+
+a:link{
+  color:lawngreen;
+  font-size:50px;
+}
+a:visited{
+  color:grey;
+}
+a:hover{
+  color:lightcyan;
+}
+a:active{
+  color:tomato;
+}
+button{
+  font-size:50px;
+}
+
+button:hover{
+  background-color:grey;
+}
+button:active{
+  background-color:white;
+}
+/*
+li:nth-child(1){
+  background-color:yellow;
+}
+li:nth-child(even){
+  background-color:yellow;
+}
+li:nth-child(odd){
+  background-color:yellow;
+}
+*/
+
+li:nth-child(3n) {
+  background-color:yellow;
+}
+li{
+  font-size:20px;
+}
+h2{
+  text-shadow: 5px 5px 5px grey;
+}
+h2:hover{
+  box-shadow: 5px 5px 5px black;
+}
+
+.box{
+  border: 5px solid;
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  background-color: lightskyblue;
+  font-size:225px;
+}
+#box2{
+  margin-right:3%;
+  transform: rotateX(180deg);
+  transform: rotateY(180deg);
+  /*transform: translate(50px, 100px);
+  transform: scale(2,2);
+  transform: skewX(45deg);*/
+}
+
+#box3 {
+  animation:mySlide;
+  animation-iteration-count:infinite;
+  animation-delay:0s;
+  animation-timing-function:ease-out;
+  animation-duration:5s;
+}
+
+@keyframes mySlide{
+  from{margin-left:100%;}
+  to{margin-left:0%;}
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+h3 {
+    color:aliceblue;
+    display:block;
+    text-align:center;
+    font-size: 10em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#buttonContainer {
+    text-align:center;
+}
+
+.button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}

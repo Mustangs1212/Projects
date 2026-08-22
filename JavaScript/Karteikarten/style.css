@@ -1,0 +1,150 @@
+/* Grundlayout */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #222831;
+    color: #d9dad7;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+body.light {
+  background: #d7ffdf;
+  color: #333;
+}
+
+/* Header */
+header {
+    background: #3e4a61;
+    color: #fad3cf;
+    padding: 10px;
+    text-align: center;
+    border-radius: 1em;
+}
+
+h1 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #90f6d7;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #90f6d7;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 1em;
+    cursor: pointer;
+}
+header nav a:hover {
+    background: #90f6d7;
+    color: #3e4a61;
+}
+
+header nav button {
+    color: #90f6d7;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #90f6d7;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 1em;
+    cursor: pointer;
+    background: none;
+}
+
+header nav button:hover {
+    background: #90f6d7;
+    color: #3e4a61;
+}
+
+/* Main */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Stapelübersicht */
+.stapeluebersicht {
+    min-width: 20em;
+    margin: 1em auto;
+    padding: 1em;
+    border: 2px solid #90f6d7;
+    border-radius: 1em;
+}
+.stapeluebersicht.light {
+    border-color: #333;
+}
+
+.stapeluebersicht h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.stapeluebersicht ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.stapeluebersicht li {
+    padding: 0.25em 0;
+}
+
+/* Stapel erstellen Button */
+#stapel-erstellen {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 1em;
+}
+
+#stapel-erstellen button {
+    width: 9em;
+    height: 2.5em;
+    font-size: 1rem;
+    border-radius: 1em;
+    cursor: pointer;
+    border: 2px solid #90f6d7;
+    background: #3e4a61;
+    color: #fad3cf;
+}
+#stapel-erstellen button:hover {
+    background: #90f6d7;
+    color: #3e4a61;
+}
+#stapel-erstellen button.light {
+    border-color: black;
+}
+/* Footer */
+footer {
+    background: #3e4a61;
+    color: #fad3cf;
+    padding: 10px;
+    text-align: center;
+    border-radius: 1em;
+}
+
+footer nav a {
+    margin: 0 5px;
+    color: #90f6d7;
+    cursor: pointer;
+    text-decoration: none;
+}

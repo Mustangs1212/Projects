@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Engi</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>ENGI Karteikarten App</h1>
+            <nav>
+                <a href="einstellungen.html">Einstellungen</a>
+                <a href="option1.html">Option 1</a>
+                <button id="themeButton" type="button" onclick="changeMode()">Mode</button>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Herzlich Willkommen: Name</h2>
+
+            <section class="stapeluebersicht">
+                <h3>Stapelübersicht</h3>
+                <ul id="deckList">
+                    <!-- Stapel werden hier dynamisch eingefügt -->
+                </ul>
+            </section>
+
+            <section id="stapel-erstellen">
+                <input id="deckNameInput" type="text" placeholder="Name des neuen Stapels">
+                <button id="createDeckButton" type="button">Stapel erstellen</button>
+            </section>
+        </main>
+
+        <footer>
+            <nav>
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutz</a>
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
